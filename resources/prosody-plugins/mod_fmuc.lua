@@ -61,7 +61,7 @@ module:hook('muc-occupant-pre-join', function (event)
     local occupant, room, origin, stanza = event.occupant, event.room, event.origin, event.stanza;
     local node, host = jid.split(occupant.bare_jid);
 
-    if host == local_domain then
+    if host ~= main_domain then
         if room._main_room_lobby_enabled then
             origin.send(st.error_reply(stanza, 'cancel', 'not-allowed', 'Visitors not allowed while lobby is on!'));
             return true;
@@ -160,7 +160,7 @@ module:hook('muc-occupant-left', function (event)
     local room, occupant = event.room, event.occupant;
     local occupant_domain = jid.host(occupant.bare_jid);
 
-    if occupant_domain == local_domain then
+    if occupant_domain ~= main_domain then
         local focus_occupant = get_focus_occupant(room);
         if not focus_occupant then
             module:log('info', 'No focus found for %s', room.jid);
@@ -427,10 +427,12 @@ module:hook_global('stats-update', function ()
     for room in prosody.hosts[module.host].modules.muc.each_room() do
         rooms_count = rooms_count + 1;
         for _, o in room:each_occupant() do
-            if jid.host(o.bare_jid) == local_domain then
-                visitors_count = visitors_count + 1;
-            else
-                participants_count = participants_count + 1;
+            if not is_admin(o.bare_jid) then
+                if jid.host(o.bare_jid) == main_domain then
+                    participants_count = participants_count + 1;
+                else
+                    visitors_count = visitors_count + 1;
+                end
             end
         end
         -- do not count jicofo
