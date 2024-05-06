@@ -2,7 +2,7 @@ import { IStore } from '../app/types';
 import { isSuboptimalBrowser } from '../base/environment/environment';
 import { translateToHTML } from '../base/i18n/functions';
 import { showWarningNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 export * from './functions.any';
 

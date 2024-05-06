@@ -4,7 +4,7 @@ import JitsiMeetJS from '../base/lib-jitsi-meet';
 import { navigate } from '../mobile/navigation/components/conference/ConferenceNavigationContainerRef';
 import { screen } from '../mobile/navigation/routes';
 import { showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { showStartRecordingNotificationWithCallback } from './actions.any';
 import HighlightDialog from './components/Recording/native/HighlightDialog';

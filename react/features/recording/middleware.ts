@@ -21,7 +21,7 @@ import {
 } from '../base/sounds/actions';
 import { TRACK_ADDED } from '../base/tracks/actionTypes';
 import { hideNotification, showErrorNotification, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { isRecorderTranscriptionsRunning } from '../transcribing/functions';
 
 import { RECORDING_SESSION_UPDATED, START_LOCAL_RECORDING, STOP_LOCAL_RECORDING } from './actionTypes';

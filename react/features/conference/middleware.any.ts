@@ -32,9 +32,9 @@ import { isVpaasMeeting } from '../jaas/functions';
 import { hideNotification, showNotification, showWarningNotification } from '../notifications/actions';
 import {
     CALENDAR_NOTIFICATION_ID,
-    NOTIFICATION_ICON,
-    NOTIFICATION_TIMEOUT_TYPE
+    NOTIFICATION_ICON
 } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { showStartRecordingNotification } from '../recording/actions';
 import { showSalesforceNotification } from '../salesforce/actions';
 import { setToolboxEnabled } from '../toolbox/actions.any';

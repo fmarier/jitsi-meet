@@ -11,7 +11,7 @@ import { inIframe } from '../base/util/iframeUtils';
 import { parseURIString } from '../base/util/uri';
 import { isVpaasMeeting } from '../jaas/functions';
 import { clearNotifications, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { isWelcomePageEnabled } from '../welcome/functions';
 
 import {

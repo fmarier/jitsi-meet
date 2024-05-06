@@ -17,7 +17,7 @@ import MiddlewareRegistry from '../base/redux/MiddlewareRegistry';
 import StateListenerRegistry from '../base/redux/StateListenerRegistry';
 import { playSound, registerSound, unregisterSound } from '../base/sounds/actions';
 import { hideNotification, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { muteLocal } from '../video-menu/actions.any';
 
 import {

@@ -19,8 +19,7 @@ import {
 import { openURLInBrowser } from '../base/util/openURLInBrowser';
 import { executeDialOutRequest, executeDialOutStatusRequest, getDialInfoPageURL } from '../invite/functions';
 import { showErrorNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
-import { INotificationProps } from '../notifications/types';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import {
     PREJOIN_INITIALIZED,

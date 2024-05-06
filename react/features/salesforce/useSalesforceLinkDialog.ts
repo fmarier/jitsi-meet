@@ -7,10 +7,10 @@ import { IReduxState } from '../app/types';
 import { getCurrentConference } from '../base/conference/functions';
 import { hideNotification, showNotification } from '../notifications/actions';
 import {
-    NOTIFICATION_TIMEOUT_TYPE,
     NOTIFICATION_TYPE,
     SALESFORCE_LINK_NOTIFICATION_ID
 } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import {
     executeLinkMeetingRequest,

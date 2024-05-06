@@ -93,7 +93,8 @@ import {
 import { answerKnockingParticipant, toggleLobbyMode } from '../../react/features/lobby/actions';
 import { setNoiseSuppressionEnabled } from '../../react/features/noise-suppression/actions';
 import { hideNotification, showNotification } from '../../react/features/notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE, NOTIFICATION_TYPE } from '../../react/features/notifications/constants';
+import { NOTIFICATION_TYPE } from '../../react/features/notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../react/features/notifications/types';
 import {
     close as closeParticipantsPane,
     open as openParticipantsPane

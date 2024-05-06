@@ -2,10 +2,10 @@ import { IStore } from '../app/types';
 import { openDialog } from '../base/dialog/actions';
 import { hideNotification, showNotification } from '../notifications/actions';
 import {
-    NOTIFICATION_TIMEOUT_TYPE,
     NOTIFICATION_TYPE,
     SALESFORCE_LINK_NOTIFICATION_ID
 } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { SalesforceLinkDialog } from './components';
 import { isSalesforceEnabled } from './functions';

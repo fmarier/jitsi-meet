@@ -1,7 +1,7 @@
 import { IStore } from '../app/types';
 import { getLocalJitsiAudioTrack } from '../base/tracks/functions';
 import { showErrorNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { NoiseSuppressionEffect } from '../stream-effects/noise-suppression/NoiseSuppressionEffect';
 
 import { SET_NOISE_SUPPRESSION_ENABLED } from './actionTypes';

@@ -16,8 +16,8 @@ import {
     setNotificationsEnabled,
     showNotification
 } from '../../react/features/notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../react/features/notifications/constants';
 import { joinLeaveNotificationsDisabled } from '../../react/features/notifications/functions';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../react/features/notifications/types';
 import {
     dockToolbox,
     setToolboxEnabled,

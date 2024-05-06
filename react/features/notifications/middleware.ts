@@ -30,10 +30,10 @@ import {
     showParticipantLeftNotification
 } from './actions';
 import {
-    NOTIFICATION_TIMEOUT_TYPE,
     RAISE_HAND_NOTIFICATION_ID
 } from './constants';
 import { areThereNotifications, joinLeaveNotificationsDisabled } from './functions';
+import { NOTIFICATION_TIMEOUT_TYPE } from './types';
 
 /**
  * Map of timers.

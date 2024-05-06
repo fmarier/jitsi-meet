@@ -5,7 +5,7 @@ import { JitsiRecordingConstants } from '../base/lib-jitsi-meet';
 import StateListenerRegistry from '../base/redux/StateListenerRegistry';
 import { playSound } from '../base/sounds/actions';
 import { showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { RECORDING_OFF_SOUND_ID, RECORDING_ON_SOUND_ID } from '../recording/constants';
 
 import { isRecorderTranscriptionsRunning } from './functions';

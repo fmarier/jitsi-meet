@@ -17,10 +17,9 @@ import { BUTTON_TYPES } from '../base/ui/constants.any';
 import { hideNotification, showNotification } from '../notifications/actions';
 import {
     NOTIFICATION_ICON,
-    NOTIFICATION_TIMEOUT_TYPE,
     VISITORS_PROMOTION_NOTIFICATION_ID
 } from '../notifications/constants';
-import { INotificationProps } from '../notifications/types';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { open as openParticipantsPane } from '../participants-pane/actions';
 
 import {

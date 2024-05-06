@@ -12,7 +12,7 @@ import { MEDIA_TYPE } from '../../../base/media/constants';
 import { getLocalParticipant } from '../../../base/participants/functions';
 import { isLocalTrackMuted } from '../../../base/tracks/functions';
 import { showWarningNotification } from '../../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../../notifications/types';
 import { dockToolbox } from '../../../toolbox/actions';
 import { muteLocal } from '../../../video-menu/actions.any';
 import { setSharedVideoStatus, stopSharedVideo } from '../../actions.any';

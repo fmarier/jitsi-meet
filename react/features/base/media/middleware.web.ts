@@ -3,7 +3,7 @@ import { AnyAction } from 'redux';
 
 import { IStore } from '../../app/types';
 import { showNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import LocalRecordingManager from '../../recording/components/Recording/LocalRecordingManager.web';
 import StopRecordingDialog from '../../recording/components/Recording/web/StopRecordingDialog';
 import { openDialog } from '../dialog/actions';

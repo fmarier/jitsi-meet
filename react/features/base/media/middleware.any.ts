@@ -10,7 +10,7 @@ import { sendAnalytics } from '../../analytics/functions';
 import { IStore } from '../../app/types';
 import { APP_STATE_CHANGED } from '../../mobile/background/actionTypes';
 import { showWarningNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { isForceMuted } from '../../participants-pane/functions';
 import { isScreenMediaShared } from '../../screen-share/functions';
 import { SET_AUDIO_ONLY } from '../audio-only/actionTypes';

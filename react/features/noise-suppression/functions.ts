@@ -1,6 +1,6 @@
 import { IReduxState, IStore } from '../app/types';
 import { showWarningNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { isScreenAudioShared } from '../screen-share/functions';
 
 /**

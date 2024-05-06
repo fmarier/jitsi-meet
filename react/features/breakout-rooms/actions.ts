@@ -20,7 +20,7 @@ import {
     isLocalTrackMuted
 } from '../base/tracks/functions';
 import { clearNotifications, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { _RESET_BREAKOUT_ROOMS, _UPDATE_ROOM_COUNTER } from './actionTypes';
 import { FEATURE_KEY } from './constants';

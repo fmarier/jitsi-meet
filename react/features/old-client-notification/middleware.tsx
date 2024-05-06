@@ -5,7 +5,7 @@ import { IStore } from '../app/types';
 import { APP_WILL_MOUNT } from '../base/app/actionTypes';
 import MiddlewareRegistry from '../base/redux/MiddlewareRegistry';
 import { showErrorNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import OldElectronAPPNotificationDescription from './components/OldElectronAPPNotificationDescription';
 import { isOldJitsiMeetElectronApp } from './functions';

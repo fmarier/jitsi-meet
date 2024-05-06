@@ -11,7 +11,7 @@ import { hideDialog } from '../base/dialog/actions';
 import { JitsiConferenceErrors } from '../base/lib-jitsi-meet';
 import MiddlewareRegistry from '../base/redux/MiddlewareRegistry';
 import { showErrorNotification, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { _openPasswordRequiredPrompt } from './actions';
 import PasswordRequiredPrompt from './components/PasswordRequiredPrompt';

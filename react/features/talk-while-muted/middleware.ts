@@ -8,7 +8,7 @@ import { getLocalParticipant } from '../base/participants/functions';
 import MiddlewareRegistry from '../base/redux/MiddlewareRegistry';
 import { playSound, registerSound, unregisterSound } from '../base/sounds/actions';
 import { hideNotification, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { isForceMuted } from '../participants-pane/functions';
 import { isAudioMuteButtonDisabled } from '../toolbox/functions.any';
 

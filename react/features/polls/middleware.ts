@@ -7,7 +7,8 @@ import { playSound } from '../base/sounds/actions';
 import { INCOMING_MSG_SOUND_ID } from '../chat/constants';
 import { arePollsDisabled } from '../conference/functions.any';
 import { showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE, NOTIFICATION_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { RECEIVE_POLL } from './actionTypes';
 import { clearPolls, receiveAnswer, receivePoll } from './actions';

@@ -1,7 +1,7 @@
 /* eslint-disable lines-around-comment */
 import { IStore } from '../../app/types';
 import { showWarningNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { timeout } from '../../virtual-background/functions';
 import logger from '../../virtual-background/logger';
 

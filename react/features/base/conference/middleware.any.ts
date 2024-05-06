@@ -17,7 +17,7 @@ import { removeLobbyChatParticipant } from '../../chat/actions.any';
 import { openDisplayNamePrompt } from '../../display-name/actions';
 import { isVpaasMeeting } from '../../jaas/functions';
 import { showErrorNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { hasDisplayName } from '../../prejoin/utils';
 import { stopLocalVideoRecording } from '../../recording/actions.any';
 import LocalRecordingManager from '../../recording/components/Recording/LocalRecordingManager';

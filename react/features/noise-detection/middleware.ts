@@ -4,7 +4,7 @@ import { JitsiConferenceEvents } from '../base/lib-jitsi-meet';
 import MiddlewareRegistry from '../base/redux/MiddlewareRegistry';
 import { playSound, registerSound, unregisterSound } from '../base/sounds/actions';
 import { hideNotification, showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import { setNoisyAudioInputNotificationUid } from './actions';
 import { NOISY_AUDIO_INPUT_SOUND_ID } from './constants';

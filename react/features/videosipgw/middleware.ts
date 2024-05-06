@@ -11,7 +11,7 @@ import {
     showNotification,
     showWarningNotification
 } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import {
     SIP_GW_AVAILABILITY_CHANGED,

@@ -14,12 +14,11 @@ import {
 import {
     NOTIFICATION_ICON,
     NOTIFICATION_TIMEOUT,
-    NOTIFICATION_TIMEOUT_TYPE,
     NOTIFICATION_TYPE,
     SILENT_JOIN_THRESHOLD,
     SILENT_LEFT_THRESHOLD
 } from './constants';
-import { INotificationProps } from './types';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from './types';
 
 /**
  * Function that returns notification timeout value based on notification timeout type.

@@ -8,7 +8,7 @@ import { IconCheck, IconCopy } from '../../../../base/icons/svg';
 import Tooltip from '../../../../base/tooltip/components/Tooltip';
 import { copyText } from '../../../../base/util/copyText.web';
 import { showSuccessNotification } from '../../../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../../../notifications/types';
 import { _formatConferenceIDPin } from '../../../_utils';
 
 let mounted: boolean;

@@ -11,9 +11,9 @@ import { MAX_MODE } from '../../e2ee/constants';
 import { showNotification } from '../../notifications/actions';
 import {
     LOCAL_RECORDING_NOTIFICATION_ID,
-    NOTIFICATION_TIMEOUT_TYPE,
     RAISE_HAND_NOTIFICATION_ID
 } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { isForceMuted } from '../../participants-pane/functions';
 import { CALLING, INVITED } from '../../presence-status/constants';
 import { RAISE_HAND_SOUND_ID } from '../../reactions/constants';

@@ -16,8 +16,8 @@ import {
     showNotification,
     showWarningNotification
 } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE, NOTIFICATION_TYPE } from '../notifications/constants';
-import { INotificationProps } from '../notifications/types';
+import { NOTIFICATION_TYPE } from '../notifications/constants';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { setRequestingSubtitles } from '../subtitles/actions.any';
 import { isRecorderTranscriptionsRunning } from '../transcribing/functions';
 

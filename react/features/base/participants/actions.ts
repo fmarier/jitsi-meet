@@ -1,6 +1,6 @@
 import { IStore } from '../../app/types';
 import { showNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { IJitsiConference } from '../conference/reducer';
 import { set } from '../redux/functions';
 

@@ -18,7 +18,7 @@ import { updateSettings } from '../base/settings/actions';
 import { playSound, registerSound, unregisterSound } from '../base/sounds/actions';
 import { getDisabledSounds } from '../base/sounds/functions.any';
 import { showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 
 import {
     ADD_REACTION_BUFFER,

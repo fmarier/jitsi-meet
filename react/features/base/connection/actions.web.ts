@@ -5,7 +5,7 @@ import { IStore } from '../../app/types';
 import { getCustomerDetails } from '../../jaas/actions.any';
 import { getJaasJWT, isVpaasMeeting } from '../../jaas/functions';
 import { showWarningNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { stopLocalVideoRecording } from '../../recording/actions.any';
 import LocalRecordingManager from '../../recording/components/Recording/LocalRecordingManager.web';
 import { setJWT } from '../jwt/actions';

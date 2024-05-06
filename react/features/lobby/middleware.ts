@@ -37,10 +37,9 @@ import { hideNotification, showNotification } from '../notifications/actions';
 import {
     LOBBY_NOTIFICATION_ID,
     NOTIFICATION_ICON,
-    NOTIFICATION_TIMEOUT_TYPE,
     NOTIFICATION_TYPE
 } from '../notifications/constants';
-import { INotificationProps } from '../notifications/types';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { open as openParticipantsPane } from '../participants-pane/actions';
 import { getParticipantsPaneOpen } from '../participants-pane/functions';
 import {

@@ -20,3 +20,13 @@ export interface INotificationProps {
     titleKey?: string;
     uid?: string;
 }
+
+/**
+ * Notification timeout type.
+ */
+export enum NOTIFICATION_TIMEOUT_TYPE {
+    LONG = 'long',
+    MEDIUM = 'medium',
+    SHORT = 'short',
+    STICKY = 'sticky'
+}

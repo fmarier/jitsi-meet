@@ -27,7 +27,7 @@ import { addGif } from '../gifs/actions';
 import { GIF_PREFIX } from '../gifs/constants';
 import { getGifDisplayMode, isGifMessage } from '../gifs/function.any';
 import { showMessageNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { resetNbUnreadPollsMessages } from '../polls/actions';
 import { ADD_REACTION_MESSAGE } from '../reactions/actionTypes';
 import { pushReactions } from '../reactions/actions.any';

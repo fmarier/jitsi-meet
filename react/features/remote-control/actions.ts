@@ -14,7 +14,7 @@ import {
 import { toggleScreensharing } from '../base/tracks/actions';
 import { getLocalDesktopTrack } from '../base/tracks/functions';
 import { showNotification } from '../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../notifications/types';
 import { isScreenVideoShared } from '../screen-share/functions';
 
 import {

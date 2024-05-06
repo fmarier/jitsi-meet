@@ -12,7 +12,7 @@ import { equals } from '../../base/redux/functions';
 import { createLocalTracksF } from '../../base/tracks/functions';
 import Spinner from '../../base/ui/components/web/Spinner';
 import { showWarningNotification } from '../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/constants';
+import { NOTIFICATION_TIMEOUT_TYPE } from '../../notifications/types';
 import { toggleBackgroundEffect } from '../actions';
 import logger from '../logger';
 import { IVirtualBackground } from '../reducer';

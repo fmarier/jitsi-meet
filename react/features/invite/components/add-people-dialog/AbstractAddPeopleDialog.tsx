@@ -5,8 +5,7 @@ import { sendAnalytics } from '../../../analytics/functions';
 import { IReduxState, IStore } from '../../../app/types';
 import { getMeetingRegion } from '../../../base/config/functions.any';
 import { showErrorNotification, showNotification } from '../../../notifications/actions';
-import { NOTIFICATION_TIMEOUT_TYPE } from '../../../notifications/constants';
-import { INotificationProps } from '../../../notifications/types';
+import { INotificationProps, NOTIFICATION_TIMEOUT_TYPE } from '../../../notifications/types';
 import { invite } from '../../actions.any';
 import { INVITE_TYPES } from '../../constants';
 import {
